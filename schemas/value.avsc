@@ -1,0 +1,38 @@
+{
+  "namespace": "test.progress",
+  "name": "value",
+  "type": "record",
+  "fields": [
+    {
+      "name": "platform",
+      "type": "string",
+      "doc": "Event of this platform"
+    },
+    {
+      "name": "workflow",
+      "type": "string",
+      "doc": "Event of this workflow"
+    },
+    {
+      "name": "process",
+      "type": "string",
+      "doc": "Event of this process"
+    },
+    {
+      "name": "primaryKey",
+      "type": "string",
+      "doc": "Primary Key for this process event"
+    },
+    {
+      "name": "secondaryKey",
+      "type": ["null", "string"],
+      "doc": "Primary Key for this process event",
+      "default": null
+    },
+    {
+      "name": "progress",
+      "type": "float",
+      "doc": "Current progress"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  [ { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics-mothur",
+      "workflow": "PreprocessPairEndInput",
+      "process": "MakeContigs",
+      "primaryKey": "S1-2020",
+      "secondaryKey": null,
+      "progress": 20
+    }
+  ],
+  [ { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics-mothur",
+      "workflow": "PreprocessPairEndInput",
+      "process": "Cutadapter",
+      "primaryKey": "S1-2020",
+      "secondaryKey": null,
+      "progress": 23
+    }
+  ],
+  [ { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics-mothur",
+      "workflow": "Analysis",
+      "process": "CoreAnalysis",
+      "primaryKey": "S1-2020",
+      "secondaryKey": null,
+      "progress": 47
+    }
+  ]
+]
