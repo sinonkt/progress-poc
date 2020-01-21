@@ -19,7 +19,7 @@ def delivery_report(err, msg):
 conf = {
     "bootstrap.servers": "10.227.52.244:31090,10.227.52.244:31091,10.227.52.244:31092",
     "on_delivery": delivery_report,
-    "schema.registry.url": "http://10.227.52.247:30553"
+    "schema.registry.url": "http://10.227.52.244:30553"
 }
 value_schema = avro.load("./schemas/value.avsc")
 key_schema = avro.load("./schemas/key.avsc")
