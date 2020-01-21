@@ -2,7 +2,7 @@
 
 ### Install Environement
 ```
-conda env create -n confluent-kafka  -f environment.yml
+conda env create -f environment.yml
 ```
 
 ### Listen to kafka natively
