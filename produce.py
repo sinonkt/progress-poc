@@ -5,7 +5,7 @@ import json
 from confluent_kafka import avro
 from confluent_kafka.avro import AvroProducer
 
-MESSAGE_INTERVAL_SECONDS=3
+MESSAGE_INTERVAL_SECONDS=5
 topic="test_progress"
 
 def delivery_report(err, msg):
@@ -17,7 +17,7 @@ def delivery_report(err, msg):
         print('Message delivered to {} [{}]'.format(msg.topic(), msg.partition()))
 
 conf = {
-    "bootstrap.servers": "10.227.52.245:31090,10.227.52.246:31091,10.227.52.247:31092",
+    "bootstrap.servers": "10.227.52.244:31090,10.227.52.244:31091,10.227.52.244:31092",
     "on_delivery": delivery_report,
     "schema.registry.url": "http://10.227.52.247:30553"
 }

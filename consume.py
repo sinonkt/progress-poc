@@ -4,8 +4,8 @@ from confluent_kafka.avro import AvroConsumer
 from confluent_kafka.avro.serializer import SerializerError
 
 conf = {
-    "bootstrap.servers": "10.227.52.245:31090,10.227.52.246:31091,10.227.52.247:31092",
-    "schema.registry.url": "http://10.227.52.247:30553",
+    "bootstrap.servers": "10.227.52.244:31090,10.227.52.244:31091,10.227.52.244:31092",
+    "schema.registry.url": "http://10.227.52.244:30553",
     "group.id": "group.id"
 }
 topic="test_progress"
