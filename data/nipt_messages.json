@@ -1,0 +1,301 @@
+[
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": null,
+      "process": null,
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Queueing",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "QualityControl",
+      "process": "FastQC",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitting",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "QualityControl",
+      "process": "FastQC",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitted",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "QualityControl",
+      "process": "FastQC",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "QualityControl",
+      "process": "FastQC",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Completed",
+      "progress": 100
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalFraction",
+      "process": "CalculateFetalFraction",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitting",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalFraction",
+      "process": "CalculateFetalFraction",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitted",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalFraction",
+      "process": "CalculateFetalFraction",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Completed",
+      "progress": 100
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalGender",
+      "process": "PredictFetalSexWithNIPT_SVM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitting",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalGender",
+      "process": "PredictFetalSexWithNIPT_SVM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitted",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalGender",
+      "process": "PredictFetalSexWithNIPT_SVM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalGender",
+      "process": "WisecondorXPredictCNAs",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 33.33
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalGender",
+      "process": "WisecondorXPredictGender",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 66.67
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalGender",
+      "process": "WisecondorXPredictGender",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Completed",
+      "progress": 100
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "AnalyseWithNIPT_PCA_PAM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitting",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "AnalyseWithNIPT_PCA_PAM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Submitted",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "AnalyseWithNIPT_PCA_PAM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "PCAPlot",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 16.67
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "PredictWithNIPT_SVM",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 33.33
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "PreprocessArrays",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 50.03
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "WisecondorPlot",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 66.69
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "WisecondorReport",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 83.36
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "nipt",
+      "workflow": "nipt",
+      "subWorkflow": "FetalChromosomalAbnormality",
+      "process": "WisecondorReport",
+      "primaryKey": "NIPS_109005_NIPT_0070_2",
+      "secondaryKey": null,
+      "status": "Completed",
+      "progress": 100
+    }
+  ]
+]
