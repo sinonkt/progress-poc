@@ -14,14 +14,22 @@
       "doc": "Event of this workflow"
     },
     {
+      "name": "subWorkflow",
+      "type": ["null", "string"],
+      "doc": "Event of this Sub Workflow",
+      "default": null
+    },
+    {
       "name": "process",
-      "type": "string",
-      "doc": "Event of this process"
+      "type": ["null", "string"],
+      "doc": "Event of this process",
+      "default": null
     },
     {
       "name": "primaryKey",
-      "type": "string",
-      "doc": "Primary Key for this process event"
+      "type": ["null", "string"],
+      "doc": "Event of this process",
+      "default": null
     },
     {
       "name": "secondaryKey",
@@ -32,7 +40,19 @@
     {
       "name": "progress",
       "type": "float",
-      "doc": "Current progress"
+      "doc": "Current progress",
+      "default": 0.0
+    },
+    {
+      "name": "status",
+      "type": {
+        "name": "statusEnumType",
+        "type": "enum",
+        "symbols": ["Queueing", "Submitting", "Submitted", "Running", "Completed"],
+        "default": "Queueing"
+      },
+      "doc": "Workflow status",
+      "default": "Queueing"
     }
   ]
 }

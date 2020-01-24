@@ -29,3 +29,23 @@ schemas
 ```
 ./produce.py
 ```
+
+```
+Status {
+  Queueing,
+  Submitting,
+  Submitted,
+  Running,
+  Completed
+}
+```
+
+```
+Orignal Status
+enum TaskStatus {
+    NEW,        // task has just been created and not yet submitted for execution
+    SUBMITTED,  // task has been submitted for execution
+    RUNNING,    // task is currently running
+    COMPLETED   // task execution completed either successfully or with with an error condition
+}
+```
