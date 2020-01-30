@@ -1,0 +1,41 @@
+{
+  "type": "record",
+  "name": "key",
+  "namespace": "nstda.nbt.progress",
+  "fields": [
+    {
+      "name": "platform",
+      "type": "string",
+      "doc": "Event from this platform"
+    },
+    {
+      "name": "workflowId",
+      "type": "string",
+      "doc": "Event from this workflow"
+    },
+    {
+      "name": "runId",
+      "type": "string",
+      "doc": "Run Id"
+    },
+    {
+      "name": "userId",
+      "type": "string",
+      "doc": "User Id"
+    },
+    {
+      "name": "projectId",
+      "type": "string",
+      "doc": "Project Id"
+    },
+    {
+      "name": "datasetId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Dataset Id if not specified they will be $userId_$projectId",
+      "default": null
+    }
+  ]
+}

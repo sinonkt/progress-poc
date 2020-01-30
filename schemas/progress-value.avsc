@@ -1,0 +1,84 @@
+{
+  "type": "record",
+  "name": "value",
+  "namespace": "nstda.nbt.progress",
+  "fields": [
+    {
+      "name": "subworkflow",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Event of this Sub Workflow",
+      "default": null
+    },
+    {
+      "name": "process",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Process of this event",
+      "default": null
+    },
+    {
+      "name": "processDescription",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Process description of this event",
+      "default": null
+    },
+    {
+      "name": "primaryKey",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "PrimaryKey of this process event",
+      "default": null
+    },
+    {
+      "name": "secondaryKey",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "SecondaryKey of this process event",
+      "default": null
+    },
+    {
+      "name": "tertiaryKey",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "SecondaryKey of this process event",
+      "default": null
+    },
+    {
+      "name": "progress",
+      "type": "float",
+      "doc": "Current progress",
+      "default": 0.0
+    },
+    {
+      "name": "status",
+      "type": {
+        "type": "enum",
+        "name": "statusEnumType",
+        "symbols": [
+          "Queueing",
+          "Started",
+          "Running",
+          "Failed",
+          "Completed"
+        ],
+        "default": "Queueing"
+      },
+      "doc": "Workflow status",
+      "default": "Queueing"
+    }
+  ]
+}

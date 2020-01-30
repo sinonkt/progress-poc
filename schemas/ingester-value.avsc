@@ -1,0 +1,61 @@
+{
+  "namespace": "nstda.nbt.ingester",
+  "type": "record",
+  "name": "value",
+  "fields": [
+    {
+      "name": "repo",
+      "type": "string",
+      "doc": "Ingest data to this repo"
+    },
+    {
+      "name": "files",
+      "type": {
+        "type": "array",
+        "items": {
+          "type": "record",
+          "name": "fileObject",
+          "fields": [
+            {
+              "name": "key",
+              "type": "string"
+            },
+            {
+              "name": "s3Path",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "doc": "Files to ingests",
+      "default": []
+    },
+    {
+      "name": "primaryKey",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Primary nested directory Key",
+      "default": null
+    },
+    {
+      "name": "secondaryKey",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Second nested directory Key",
+      "default": null
+    },
+    {
+      "name": "tertiaryKey",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "Third nested directory Key",
+      "default": null
+    }
+  ]
+}

@@ -6,13 +6,14 @@ from confluent_kafka.avro.serializer import SerializerError
 conf = {
     "bootstrap.servers": "10.227.52.244:31090,10.227.52.244:31091,10.227.52.244:31092",
     "schema.registry.url": "http://10.227.52.244:30553",
-    "group.id": "group.id"
+    "group.id": "testeiei"
 }
-topic="test_progress"
+topic="ingester"
 
-key_schema = avro.load('./schemas/key.avsc')
-value_schema = avro.load('./schemas/value.avsc')
-c = AvroConsumer(conf, reader_key_schema=key_schema, reader_value_schema=value_schema)
+key_schema = avro.load("./schemas/{}-key.avsc".format(topic))
+value_schema = avro.load("./schemas/{}-value.avsc".format(topic))
+# c = AvroConsumer(conf, reader_key_schema=key_schema, reader_value_schema=value_schema)
+c = AvroConsumer(conf)
 c.subscribe([topic])
 
 while True:

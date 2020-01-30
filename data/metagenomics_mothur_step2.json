@@ -1,0 +1,93 @@
+[
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": null,
+      "process": null,
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Queueing",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": "PreprocessPairEndInput",
+      "process": "GunzipPairEnd",
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Submitting",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": "PreprocessPairEndInput",
+      "process": "GunzipPairEnd",
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Submitted",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": "PreprocessPairEndInput",
+      "process": "GunzipPairEnd",
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 0
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": "PreprocessPairEndInput",
+      "process": "MakeContigs",
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 33.33
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": "PreprocessPairEndInput",
+      "process": "MakeContigs",
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Running",
+      "progress": 66.66
+    }
+  ],
+  [ 
+    { "runId": "123", "projectId": "97", "userId": "3" },
+    {
+      "platform": "metagenomics",
+      "workflow": "metagenomics-mothur",
+      "subWorkflow": "PreprocessPairEndInput",
+      "process": "MakeContigs",
+      "primaryKey": "D1-2020",
+      "secondaryKey": null,
+      "status": "Completed",
+      "progress": 100.0
+    }
+  ]
+]

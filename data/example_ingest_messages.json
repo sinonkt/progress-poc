@@ -1,0 +1,12 @@
+[
+  [ 
+    { "platform": "metagenomics", "projectId": "666", "userId": "999" },
+    {
+      "repo": "metagenomics-input",
+      "files": [
+        { "key": "README", "s3Path": "s3://minio/test/README.md" },
+        { "key": "minio-dev", "s3Path": "s3://minio/test/minio-dev.conf.json" }
+      ]
+    }
+  ]
+]
