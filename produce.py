@@ -21,8 +21,8 @@ conf = {
     "on_delivery": delivery_report,
     "schema.registry.url": "http://10.227.52.247:30553"
 }
-value_schema = avro.load("./schemas/{}-key.avsc".format(topic))
 key_schema = avro.load("./schemas/{}-key.avsc".format(topic))
+value_schema = avro.load("./schemas/{}-value.avsc".format(topic))
 
 avroProducer = AvroProducer(conf, default_key_schema=key_schema, default_value_schema=value_schema)
 
